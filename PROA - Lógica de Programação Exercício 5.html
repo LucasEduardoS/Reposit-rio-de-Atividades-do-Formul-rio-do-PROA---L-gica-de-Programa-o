@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROA - Lógica de Programação Exercício 5</title>
+</head>
+<body>
+    <script>
+        var n1 = prompt("Digite o primeiro número: ");
+        var n2 = prompt("Digite o segundo número: ");
+        var i1 = parseInt(n1);
+        var i2 = parseInt(n2);
+        var opcoes = prompt("Quais das operações a seguir deseja executar utilizando os números " + n1 + " e " + n2 + "?:<br>1. Subtrair<br>2. Somar<br>3. Multiplicar<br>4. Dividir");
+        if (opcoes == 1) {
+            document.write(i1 + " menos " + i2 + " é igual a " + (i1 - i2))
+        } else if (opcoes == 2) {
+            document.write(i1 + " mais " + i2 + " é igual a " + (i1 + i2))
+        } else if (opcoes == 3) {
+            document.write(i1 + " vezes " + i2 + " é igual a " + (i1 * i2))
+        } else if (opcoes == 4 && n2 != 0) {
+            document.write(i1 + " divido por " + i2 + " é igual a " + (i1 / i2))
+        } else {
+            document.write("A divisão não pode ser executada pois o denominador é igual a 0.")
+        }
+    </script>
+</body>
+</html>

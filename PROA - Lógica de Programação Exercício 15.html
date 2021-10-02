@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROA - Lógica de Programação Exercício 15</title>
+</head>
+<body>
+    <script>
+        var parcelas = prompt("Digite a quantidade de parcelas: ")
+        if (parcelas > 15) {
+            document.write("O valor máximo possível é de 15 parcelas: ")
+        } else {
+            document.write("Pagando o valor de R$ 8.190,00 em " + parcelas + " parcelas, cada parcela terá o valor de R$" + (8190 / parcelas) + ".")
+        }
+    </script>
+</body>
+</html>

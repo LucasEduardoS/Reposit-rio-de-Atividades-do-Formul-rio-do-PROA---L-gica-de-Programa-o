@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROA - Lógica de Programação Exercício 4</title>
+</head>
+<body>
+    <script>
+        var v1 = prompt("Digite o primeiro valor: ");
+        var v2 = prompt("Digite o segundo valor: ");
+        var v3 = prompt("Digite o terceiro valor: ");
+        var i1 = parseInt(v1);
+        var i2 = parseInt(v2);
+        var i3 = parseInt(v3);
+
+        if (i1 == i2 || i1 == i2 || i3 == i2) {
+            document.write("Insira valores diferentes por favor.")
+        } else {
+            if (i1 > i3 && i2 > i3) {
+                document.write("A soma dos dois maiores valores é: " + (i1 + i2))
+            }
+            if (i1 > i2 && i3 > i2) {
+                document.write("A soma dos dois maiores valores é: " + (i1 + i3))
+            }
+            if (i2 > i1 && i3 > i1) {
+                document.write("A soma dos dois maiores valores é: " + (i2 + i3))
+            }
+        }
+    </script>
+</body>
+</html>

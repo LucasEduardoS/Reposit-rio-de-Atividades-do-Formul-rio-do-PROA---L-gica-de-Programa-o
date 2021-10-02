@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROA - Lógica de Programação Exercício 19</title>
+</head>
+<body>
+    <script>
+        var a = prompt("Digite o valor (numérico) da variável A: ");
+        var A = parseInt(a);
+        var b = prompt("Digite o valor (numérico) da variável B: ");
+        var B = parseInt(b);
+
+        var troca = A;
+        A = B;
+        B = troca;
+        
+        document.write("O novo valor de A é: " + A + "<br>");
+        document.write("O novo valor de B é: " + B);
+
+    </script>
+</body>
+</html>

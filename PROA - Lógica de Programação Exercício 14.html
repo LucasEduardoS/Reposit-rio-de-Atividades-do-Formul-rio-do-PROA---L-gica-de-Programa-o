@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROA - Lógica de Programação Exercício 14</title>
+</head>
+<body>
+    <script>
+        var nota1 = prompt("Digite o valor da nota da primeira prova: ");
+        var nota2 = prompt("Digite o valor da nota da segunda prova: ");
+        var nota3 = prompt("Digite o valor da nota da terceira prova: ");
+        var nota4 = prompt("Digite o valor da nota da quarta prova: ");
+        var media = 0;
+
+        var nota1Int = parseInt(nota1);
+        var nota2Int = parseInt(nota2);
+        var nota3Int = parseInt(nota3);
+        var nota4Int = parseInt(nota4);
+        
+        media = (nota1Int + nota2Int + nota3Int + nota4Int) / 4;
+
+        document.write("Sua média é: " + media)
+
+    </script>
+</body>
+</html>
